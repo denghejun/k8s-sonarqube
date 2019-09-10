@@ -1,4 +1,6 @@
-installing sonarqube in kubernetes
+## installing sonarqube in kubernetes
+https://coderise.io/installing-sonarqube-in-kubernetes/
+
 sonar quality code
 SonarQube is the open source platform to analyze code and continuously inspect code quality of applications. SonarQube also displays health of applications as well as discover any code vulnerabilities. In our previous blog, we discussed the importance of Continuous Integration while working with Kubernetes. In this blog, we will install SonarQube in Kubernetes and analyze a sample application using SonarQube.
 
