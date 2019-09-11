@@ -24,6 +24,7 @@ This SonarQube installation works with Postgres. But you can change it to other 
 
 $ kubectl create secret generic postgres-pwd --from-literal=password=CodeRise_Pass
 step 4 | run manifests
+$ kubectl create -f sonar-postgres-secret.yaml     
 $ kubectl create -f sonar-pv-postgres.yaml     
 $ kubectl create -f sonar-pvc-postgres.yaml  
 $ kubectl create -f sonar-postgres-deployment.yaml  

@@ -17,7 +17,7 @@ spec:
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: postgres-pwd
+                  name: sonar-postgres-pwd
                   key: password
             - name: POSTGRES_USER
               value: sonar

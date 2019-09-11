@@ -19,7 +19,7 @@ spec:
             - name: SONARQUBE_JDBC_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: postgres-pwd
+                  name: sonar-postgres-pwd
                   key: password
             - name: SONARQUBE_JDBC_URL
               value: jdbc:postgresql://sonar-postgres:5432/sonar
